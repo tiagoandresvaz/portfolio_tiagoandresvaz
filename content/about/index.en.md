@@ -10,7 +10,7 @@ math:
 ---
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
+:(far fa-bookmark fa-fw): Bookmark this page for easy future reference about me!
 {{< /admonition >}}
 
 I am married, 43 years old, two kids and living in the southern city of Porto Alegre, RS - Brazil.  
