@@ -145,7 +145,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Tiago Andres Vaz"
           # subtitle shown in home page
-          subtitle = "Professional Portfolio in Computer Science"
+          subtitle = "Professional Portfolio in Software Development"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -592,7 +592,7 @@ enableEmoji = true
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
