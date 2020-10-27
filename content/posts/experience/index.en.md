@@ -2,10 +2,10 @@
 weight: 1
 title: "Experience and Projects Done" 
 date: 2020-05-01T22:57:40+08:00
-lastmod: 2020-05-01T23:45:40+08:00
+lastmod: 
 draft: false
-author: "Tiago"
-authorLink: "tiagoandresvaz.github.io"
+author: ""
+authorLink: ""
 description: "This article shows my work experience."
 resources:
 - name: "featured-image"

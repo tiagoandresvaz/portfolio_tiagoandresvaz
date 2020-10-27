@@ -2,10 +2,10 @@
 weight: 1
 title: "Academic and Executive Education"
 date: 2020-05-01T21:57:40+08:00
-lastmod: 2020-05-01T22:45:40+08:00
+lastmod: 
 draft: false
-author: "Tiago"
-authorLink: "tiagoandresvaz.github.io"
+author: ""
+authorLink: ""
 description: "This article shows my academic and executive experience."
 resources:
 - name: "featured-image"
