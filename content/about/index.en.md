@@ -42,7 +42,7 @@ Thanks to the authors of following resources included:
 * [cookieconsent](https://github.com/osano/cookieconsent)
 
 
-### Proof of concepts
+### Proof of concepts - NFTBOOK
 
 
 
