@@ -1,25 +1,16 @@
 ---
-title: "About Me"
+title: "NFTBOOK"
 date: 2019-08-02T11:04:49+08:00
 draft: false
+js: https://unpkg.com/rarepress.js@0.0.14
 
-lightgallery: true
 
 math:
   enable: true
 ---
 
-{{< admonition tip >}}
-:(far fa-bookmark fa-fw): a few more words 
-{{< /admonition >}}
 
-I am married, 43 years old, two kids and living in the southern city of Porto Alegre, RS - Brazil.  
-
-Since my graduation in Computer Science I am motivated to keep my tech skill updated.
-
-Always interested in people, teams & talent management, marketing, automation, telecom, information security, enterprise software development and software migration projects. 
-
-### About This Site
+### About NFTBOOK.COM
 
 Tools used to build this site are licensed under the **MIT** license.
 
@@ -50,3 +41,9 @@ Thanks to the authors of following resources included:
 * [Valine](https://valine.js.org/)
 * [cookieconsent](https://github.com/osano/cookieconsent)
 
+
+### Proof of concepts
+
+
+
+{{< mint >}}
