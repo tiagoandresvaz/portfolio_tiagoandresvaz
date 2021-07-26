@@ -1,0 +1,41 @@
+
+<div id="mint">        
+    <style>
+            button, a { display: block; margin: 5px; font-family: sans-serif; }
+            img { margin-top: 10px; max-width: 100%; }
+    </style>
+    <script src="https://unpkg.com/rarepress.js@0.0.14"></script>
+    <script>
+        let cid;
+        document.addEventListener("DOMContentLoaded", async () => {
+          let account = await rarepress.init({ host: "https://rarepress.org/v0" })
+          document.querySelector("#refresh").addEventListener("click", async (e) => {
+            cid = await rarepress.add("https://thisartworkdoesnotexist.com")
+            document.querySelector("img").setAttribute("src", "https://rarepress.org/ipfs/" + cid)
+          })
+          document.querySelector("#mint").addEventListener("click", async (e) => {
+            if (cid) {
+              let token = await rarepress.create({
+                metadata: {
+                  name: "NFTBOOK MINT POC",
+                  description: "Randomly generated art, curated by Tiago A. Vaz" + account,
+                  image: "/ipfs/" + cid,
+                  attributes: [
+                    { trait_type: "powered by", value: "NFTBOOK" },
+                    { trait_type: "curator", value: account },
+                    { trait_type: "date", value: new Date().toUTCString() },
+                    { trait_type: "license", value: "DEMO PURPOSE ONLY. FROM https://thisartworkdoesnotexist.com" }
+                  ]
+                },
+              })
+              document.querySelector("#minted").setAttribute("href", "https://rarible.com/token/" + token.id)
+              document.querySelector("#minted").innerHTML = "view on rarible";
+            }
+          })
+        })
+        </script>
+          <button id='refresh'>refresh</button>
+          <button id='mint'>mint</button>
+          <a id='minted' href="#" target="_blank"></a>
+          <img>
+        </div>
