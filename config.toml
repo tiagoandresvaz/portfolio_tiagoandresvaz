@@ -1,4 +1,4 @@
-baseURL = "https://tiagoandresvaz.github.io/"
+baseURL = "https://nftbook.com.br"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
@@ -79,7 +79,7 @@ enableEmoji = true
         identifier = "about"
         pre = ""
         post = ""
-        name = "About"
+        name = "MARKETPLACE"
         url = "/about/"
         title = ""
         weight = 5
